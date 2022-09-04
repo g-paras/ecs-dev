@@ -1,0 +1,62 @@
+{
+  "id": 5,
+  "title": "ECS READING ASSIGNMENT 5",
+  "paragraph": "Guess what! I have just returned from the greatest summer trip ever! It was amazing and I had a feeling that it should never end. My friends and I went on a trip to Ladakh. We had booked a beautiful room in hotel The Ladkh Dragon, and it wasn't even expensive. We had a balcony with a wonderful view. We visited many famous tourist places. My favourite was the Louvre, a well-known museum. I was always interested in art, so that was a special treat for me. The museum is so huge, you could spend weeks there. Mike got tired walking around the museum and said “Enough! I need to take a break and rest.” We took lots of breaks and sat in cafes along the river Side. The French &amp; Israel food we ate was delicious. The wines were tasty, too. Stella's favourite part of the vacation was the hotel breakfast and of course the lovely view. He said he would be happy if he could eat and roam around like this forever. We had so much fun that we're already talking about our next vacation!",
+  "questions": [
+    {
+      "id": 1,
+      "question": "In which season did they go for the trip?",
+      "options": [
+        { "id": 1, "value": "Winter" },
+        { "id": 2, "value": "Summer" },
+        { "id": 3, "value": "Monsoon" },
+        { "id": 4, "value": "None of the above" }
+      ],
+      "answer": 1
+    },
+    {
+      "id": 2,
+      "question": "In which hotel did they stay?",
+      "options": [
+        { "id": 1, "value": "Hotel mountain view" },
+        { "id": 2, "value": "Hotel Ramada" },
+        { "id": 3, "value": "Hotel Dragon" },
+        { "id": 4, "value": "Hotel seasons" }
+      ],
+      "answer": 1
+    },
+    {
+      "id": 3,
+      "question": "'Lourve', is -",
+      "options": [
+        { "id": 1, "value": "Museum" },
+        { "id": 2, "value": "Art gallery" },
+        { "id": 3, "value": "Selfi point" },
+        { "id": 4, "value": "Reataurant" }
+      ],
+      "answer": 1
+    },
+    {
+      "id": 4,
+      "question": "Who was tired and needed a break?",
+      "options": [
+        { "id": 1, "value": "Stella" },
+        { "id": 2, "value": "Mike" },
+        { "id": 3, "value": "Jordan" },
+        { "id": 4, "value": "None of these" }
+      ],
+      "answer": 1
+    },
+    {
+      "id": 5,
+      "question": "________ favourite part of the vacation was the ______ and of course the lovely view.",
+      "options": [
+        { "id": 1, "value": "Mike, mountains" },
+        { "id": 2, "value": "My, Food" },
+        { "id": 3, "value": "Stella's, hotel breakfast" },
+        { "id": 4, "value": "All the above" }
+      ],
+      "answer": 1
+    }
+  ]
+}

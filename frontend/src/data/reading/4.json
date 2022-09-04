@@ -1,0 +1,62 @@
+{
+  "id": 4,
+  "title": "ECS Reading Assignment 4",
+  "paragraph": "Every year we go to the Maldives for vacations. We like to go to the beach. It is calm and serene. My favourite beach in Maldives is Reethi Rah. It is very long, with soft sand and palm trees. It is very beautiful. I like to make sandcastles and watch the sailboats go by. Sometimes there are dolphins and whales in the water! Every morning we look for shells in the sand. I found a few beautiful and big shells last year. I made a necklace of those shells and it is still with me. This year I want to learn to surf. It is hard to surf, but so much fun! My father and my brother are good surfers. They say that it is easy and they have also promised to teach me. I hope I can do it before we plan to go this year!",
+  "questions": [
+    {
+      "id": 1,
+      "question": "The author likes to ______ and ______ when at the beach.",
+      "options": [
+        { "id": 1, "value": "Find shells, surf" },
+        { "id": 2, "value": "surf, sleep" },
+        { "id": 3, "value": "make sandcastles, watch the sailboats" },
+        { "id": 4, "value": "None of these" }
+      ],
+      "answer": 3
+    },
+    {
+      "id": 2,
+      "question": "What did the author make with the shells?",
+      "options": [
+        { "id": 1, "value": "Made a necklace" },
+        { "id": 2, "value": "Threw them away" },
+        { "id": 3, "value": "Kept at home" },
+        { "id": 4, "value": "Sold them" }
+      ],
+      "answer": 1
+    },
+    {
+      "id": 3,
+      "question": "According to the passage, who does not know surfing?",
+      "options": [
+        { "id": 1, "value": "Father" },
+        { "id": 2, "value": "Brother" },
+        { "id": 3, "value": "Author" },
+        { "id": 4, "value": "None of these" }
+      ],
+      "answer": 3
+    },
+    {
+      "id": 4,
+      "question": "Who all have promised to teach surfing to the author?",
+      "options": [
+        { "id": 1, "value": "Father and brother" },
+        { "id": 2, "value": "Teacher" },
+        { "id": 3, "value": "Trainer" },
+        { "id": 4, "value": "No one" }
+      ],
+      "answer": 3
+    },
+    {
+      "id": 5,
+      "question": "The word 'serene' written in the first sentence means-",
+      "options": [
+        { "id": 1, "value": "Noisy" },
+        { "id": 2, "value": "Peaceful" },
+        { "id": 3, "value": "Beautiful" },
+        { "id": 4, "value": "None of these" }
+      ],
+      "answer": 3
+    }
+  ]
+}

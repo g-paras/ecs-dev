@@ -1,0 +1,63 @@
+{
+  "id": 3,
+  "title": "ECS Reading Three",
+  "paragraph": "Suzzian and Paula are at an Italian restaurant. A waiter greets them and offers them a table. 'What would you like to order?' the waiter asks. 'Could we get to see the menu?,' Suzzian says. 'Here you go!', the waiter says. The waiter brings water for Paula and orange juice for Suzzian. 'Have you decided your order?' the waiter asks. 'Yeah! I would like to order pasta and mashed potatoes,' Paula says. 'The same thing, but with green salad for me,' Suzzian says. 'And two portions of garlic bread too,' Paula says. 'Great. That is an amazing choice, I shall get your order super soon' the waiter says. The waiter returns after half an hour. 'Sorry to keep you waiting. Here is your order,' the waiter says. 'I asked for green salad,' Suzzian says. 'I'm sorry, I'll get those for you,' the waiter says. The waiter quickly returns with Suzzian's green salad. Both the friends have a sumptuous meal. They give an amazing tip to the waiter and leave.",
+
+  "questions": [
+    {
+      "id": 1,
+      "question": "Which tense is used in the passage?",
+      "options": [
+        { "id": 1, "value": "Past tense" },
+        { "id": 2, "value": "Future perfect tense" },
+        { "id": 3, "value": "Simple present tense" },
+        { "id": 4, "value": "None of these" }
+      ],
+      "answer": 3
+    },
+    {
+      "id": 2,
+      "question": "What did the waiter forget to bring?",
+      "options": [
+        { "id": 1, "value": "Green salad" },
+        { "id": 2, "value": "Pasta" },
+        { "id": 3, "value": "Water" },
+        { "id": 4, "value": "Garlic bread" }
+      ],
+      "answer": 1
+    },
+    {
+      "id": 3,
+      "question": "'Sumptuous' in the last sentence of the passage means-",
+      "options": [
+        { "id": 1, "value": "Rich and tasty" },
+        { "id": 2, "value": "Poor in taste" },
+        { "id": 3, "value": "Can't say" },
+        { "id": 4, "value": "None of these" }
+      ],
+      "answer": 1
+    },
+    {
+      "id": 4,
+      "question": "Suzzian and Paula go to an _______ restaurant.",
+      "options": [
+        { "id": 1, "value": "Mexica" },
+        { "id": 2, "value": "Spanish" },
+        { "id": 3, "value": "Italian" },
+        { "id": 4, "value": "Indian" }
+      ],
+      "answer": 3
+    },
+    {
+      "id": 5,
+      "question": "After how much time did the waiter return?",
+      "options": [
+        { "id": 1, "value": "One hour" },
+        { "id": 2, "value": "Half an hour" },
+        { "id": 3, "value": "15 minutes" },
+        { "id": 4, "value": "None of these" }
+      ],
+      "answer": 2
+    }
+  ]
+}
