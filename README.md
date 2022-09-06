@@ -50,4 +50,4 @@ source bin/activate
 python manage.py runserver
 ```
 
-[Database Schema](https://drawsql.app/teams/ecs-dev/diagrams/reading-assessment)
+[Database Schema](https://drawsql.app/teams/ecs-dev/diagrams/database-schema)
