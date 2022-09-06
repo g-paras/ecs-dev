@@ -7,12 +7,15 @@ const HomePage = () => {
         <span className="text-white font-bold text-2xl">ECS Module</span>
         <ul className="flex">
           {[
-            ["Reading Assessment", "/reading-assessment"],
-            ["Writing Assessment", "/writing-assessment"],
-            ["Listening Assessment", "/listening-assessment"],
-            ["Speaking Assessment", "/speaking-assessment"],
-          ].map((navItem) => (
-            <li className="hover:bg-white hover:text-black p-4 text-white">
+            ["Reading Module", "/reading-module"],
+            ["Writing Module", "/writing-module"],
+            ["Listening Module", "/listening-module"],
+            ["Speaking Module", "/speaking-module"],
+          ].map((navItem, id) => (
+            <li
+              key={id}
+              className="hover:bg-white hover:text-black p-4 text-white"
+            >
               <Link to={navItem[1]}>{navItem[0]}</Link>
             </li>
           ))}

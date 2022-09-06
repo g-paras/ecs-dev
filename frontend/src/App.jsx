@@ -1,6 +1,7 @@
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 
 import HomePage from "./pages/Home";
+import ListeningAssessment from "./pages/ListeningAssessment";
 import ReadingAssessment from "./pages/ReadingAssessment";
 import ReadingData from "./data/reading/1";
 
@@ -9,7 +10,8 @@ function App() {
     <BrowserRouter>
       <Routes>
         <Route path="/" element={<HomePage />} />
-        <Route path="/reading-assessment" element={<ReadingAssessment />} />
+        <Route path="/reading-module" element={<ReadingAssessment />} />
+        <Route path="/listening-module" element={<ListeningAssessment />} />
         <Route
           path="/data"
           element={<pre>{JSON.stringify(ReadingData, undefined, 2)}</pre>}
