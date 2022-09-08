@@ -22,4 +22,16 @@
   button:disabled {
     @apply cursor-not-allowed opacity-50;
   }
+
+  #easy {
+    @apply font-bold text-green-500 tracking-wide;
+  }
+
+  #medium {
+    @apply font-bold text-yellow-500 tracking-wide;
+  }
+
+  #hard {
+    @apply font-bold text-red-500 tracking-wide;
+  }
 }
