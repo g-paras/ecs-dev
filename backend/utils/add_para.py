@@ -1,7 +1,38 @@
 import os
+import json
+import pprint
 
 from reading.models import Passage, Question, Option
 
-reading_folder = "/workspaces/ecs-dev/frontend/src/data/reading"
+READING_FOLDER = "/workspaces/ecs-dev/frontend/src/data/reading"
 
-print(os.listdir(reading_folder))
+
+def list_files():
+    return [
+        os.path.join(READING_FOLDER, file)
+        for file in os.listdir(READING_FOLDER)
+    ][2:]
+
+
+def read_file():
+    for file_path in list_files():
+        f = open(file_path)
+
+        data = json.loads(f.read())
+
+        passage = Passage.objects.create(content=data["paragraph"])
+        # passage.save()
+
+        for question in data["questions"]:
+            ques_obj = Question.objects.create(
+                passage=passage, question=question["question"]
+            )
+
+            for option in question["options"]:
+                option_obj = Option.objects.create(
+                    question=ques_obj,
+                    value=option["value"],
+                    is_answer=(option["id"] == question["answer"]),
+                )
+
+        f.close()
