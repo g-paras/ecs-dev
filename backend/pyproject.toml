@@ -11,6 +11,8 @@ exclude = '''
   | buck-out
   | build
   | dist
+  | lib
+  | bin
 )/
 '''
 
