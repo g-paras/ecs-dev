@@ -5,6 +5,7 @@ import Passage from "./pages/Passage";
 import Layout from "./components/Layout";
 import NotFound from "./components/NotFound";
 import ReadingList from "./pages/ReadingList";
+import WritingList from "./pages/WritingList";
 import ReadingAssessment from "./pages/ReadingAssessment";
 import ListeningAssessment from "./pages/ListeningAssessment";
 
@@ -16,6 +17,7 @@ function App() {
         <Route path="/reading-assessment" element={<ReadingAssessment />} />
         <Route path="/reading-assessment/:id" element={<Passage />} />
         <Route path="/reading-module" element={<ReadingList />} />
+        <Route path="/writing-module" element={<WritingList />} />
         <Route path="/listening-module" element={<ListeningAssessment />} />
         <Route path="/*" element={<NotFound />} />
       </Route>
