@@ -1,0 +1,57 @@
+{
+  "id": 5,
+  "title": "The HR Interview",
+  "audio_src": "five.aac",
+  "questions": [
+    {
+      "id": 1,
+      "question": "Q1. What kind of a conversation is it?",
+      "options": [
+        { "id": 1, "value": "telephonic conversation" },
+        { "id": 2, "value": "Job Interview" },
+        { "id": 3, "value": "informal conversation" },
+        { "id": 4, "value": "non-verbal conversation" }
+      ]
+    },
+    {
+      "id": 2,
+      "question": "Q2. According to HR, which certificate is missing from the documents presented by the candidate?",
+      "options": [
+        { "id": 1, "value": "Class 10th marksheet" },
+        { "id": 2, "value": "migration certification" },
+        { "id": 3, "value": "class 12th marksheet" },
+        { "id": 4, "value": "marriage certificate" }
+      ]
+    },
+    {
+      "id": 3,
+      "question": "Q3. What kind of a professional training has been mentioned in the conversation?",
+      "options": [
+        { "id": 1, "value": "teaching" },
+        { "id": 2, "value": "boxing" },
+        { "id": 3, "value": "typing" },
+        { "id": 4, "value": "riding" }
+      ]
+    },
+    {
+      "id": 4,
+      "question": "Q4. Is the candidate confident?",
+      "options": [
+        { "id": 1, "value": "no" },
+        { "id": 2, "value": "yes" },
+        { "id": 3, "value": "may be" },
+        { "id": 4, "value": "depends" }
+      ]
+    },
+    {
+      "id": 5,
+      "question": "Q5. How did the candidate get to know about the vacancy?",
+      "options": [
+        { "id": 1, "value": "television ad" },
+        { "id": 2, "value": "radio ad" },
+        { "id": 3, "value": "ad in a journal" },
+        { "id": 4, "value": "youtube" }
+      ]
+    }
+  ]
+}

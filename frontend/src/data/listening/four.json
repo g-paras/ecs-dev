@@ -1,0 +1,52 @@
+{
+  "id": 4,
+  "title": "I am proud of you",
+  "audio_src": "four.aac",
+  "questions": [
+    {
+      "id": 1,
+      "question": "What kind of a struggle did the family face?",
+      "options": [
+        { "id": 1, "value": "social " },
+        { "id": 2, "value": "political " },
+        { "id": 3, "value": "financial " },
+        { "id": 4, "value": "health" }
+      ]
+    },
+    {
+      "id": 2,
+      "question": "Why is the mother proud of her son?",
+      "options": [
+        { "id": 1, "value": "he got selected in the cricket team " },
+        { "id": 2, "value": "he got an award " },
+        { "id": 3, "value": "he cleared JEE mains " },
+        { "id": 4, "value": "he won the first prize" }
+      ]
+    },
+    {
+      "id": 3,
+      "question": "Where did they plan to go out?",
+      "options": [
+        { "id": 1, "value": "to a museum" },
+        { "id": 2, "value": "to the movies" },
+        { "id": 3, "value": "to the mall" },
+        { "id": 4, "value": "to a restauran" }
+      ]
+    },
+    {
+      "id": 4,
+      "question": "Why did the son thank his mother?",
+      "options": [
+        { "id": 1, "value": "for her encouragement " },
+        { "id": 2, "value": "for her struggle " },
+        { "id": 3, "value": "for her award " },
+        { "id": 4, "value": "for her advice" }
+      ]
+    },
+    {
+      "id": 5,
+      "question": "Why was the mother initially disappointed by her son?",
+      "options": []
+    }
+  ]
+}
