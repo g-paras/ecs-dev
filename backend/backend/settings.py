@@ -56,6 +56,7 @@ INSTALLED_APPS = [
     # internal apps
     "account",
     "reading",
+    "listening",
 ]
 
 MIDDLEWARE = [
