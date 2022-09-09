@@ -1,6 +1,5 @@
 import os
 import json
-import pprint
 
 from reading.models import Passage, Question, Option
 
@@ -14,13 +13,13 @@ def list_files():
     ][2:]
 
 
-def read_file():
+def create_tasks():
     for file_path in list_files():
         f = open(file_path)
 
         data = json.loads(f.read())
 
-        passage = Passage.objects.create(content=data["paragraph"])
+        passage = Passage.objects.create(content=data["content"])
         # passage.save()
 
         for question in data["questions"]:
