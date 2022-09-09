@@ -6,8 +6,9 @@ from .serializers import PassageSerializer, PassageShortSerializer
 # Create your views here.
 class PassageAPIView(RetrieveAPIView):
     serializer_class = PassageSerializer
-    queryset = Passage.objects.all()
+    queryset = Passage.objects
+
 
 class PassageListAPIView(ListAPIView):
     serializer_class = PassageShortSerializer
-    queryset = Passage.objects.all()
+    queryset = Passage.objects
