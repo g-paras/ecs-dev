@@ -57,6 +57,7 @@ INSTALLED_APPS = [
     "account",
     "reading",
     "listening",
+    "writing",
 ]
 
 MIDDLEWARE = [
