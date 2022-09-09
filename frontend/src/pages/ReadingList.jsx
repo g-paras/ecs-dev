@@ -2,7 +2,7 @@ import { useEffect, useState } from "react";
 import { Link } from "react-router-dom";
 
 import useAxios from "../hooks/useAxios";
-import { PASSAGE_LIST } from "../utils/routes";
+import { READING_LIST } from "../utils/routes";
 
 const DIFFICULTY = {
   E: "EASY",
@@ -42,9 +42,10 @@ const PassageItem = ({ passage }) => {
 const ReadingList = () => {
   const axios = useAxios();
   const [passages, setPassages] = useState([]);
+
   useEffect(() => {
     axios
-      .get(PASSAGE_LIST)
+      .get(READING_LIST)
       .then((res) => {
         setPassages(res.data);
         console.log(res.data);
@@ -54,6 +55,7 @@ const ReadingList = () => {
       });
     // eslint-disable-next-line
   }, []);
+
   return (
     <div className="container mx-auto grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-4 p-4">
       {passages.map((passage, id) => (

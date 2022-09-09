@@ -2,31 +2,28 @@ import { useEffect } from "react";
 import { useState } from "react";
 import { Link, useParams } from "react-router-dom";
 import useAxios from "../hooks/useAxios";
-import { PASSAGE_DETAIL } from "../utils/routes";
-
-import ReadingData from "../data/reading/1";
+import { READING_DETAIL } from "../utils/routes";
 
 const ReadingAssessment = () => {
   const [questionNum, setQuestionNum] = useState(0);
   const [selected, setSelected] = useState();
   const [submitted, setSubmitted] = useState();
   const [finalSubmit, setFinalSubmit] = useState(false);
-  const [readingData, setReadingData] = useState({});
+  const [ReadingData, setReadingData] = useState();
 
   const { id } = useParams();
-
   const axios = useAxios();
 
   useEffect(() => {
     axios
-      .get(`${PASSAGE_DETAIL}${id}/`)
+      .get(`${READING_DETAIL}${id}/`)
       .then((res) => {
         setReadingData(res.data);
-        console.log(res.data);
       })
       .catch((err) => {
         console.log(err);
       });
+    // eslint-disable-next-line
   }, []);
 
   useEffect(() => {
@@ -35,18 +32,16 @@ const ReadingAssessment = () => {
   }, [questionNum]);
 
   const handleClick = (e) => {
-    // if (questionNum + 1 < ReadingData.questions.length)
     setQuestionNum((questionNum + 1) % ReadingData.questions.length);
   };
 
   const submitAnswer = (e) => {
     setSubmitted(selected);
-    setSelected();
   };
 
   return (
     <div className="pt-10">
-      {!finalSubmit && (
+      {ReadingData && !finalSubmit && (
         <div className="container mx-auto grid grid-cols-2">
           <div className="bg-slate-200">
             <p className="sm:p-5 md:p-10 text-lg tracking-wide">
@@ -56,41 +51,27 @@ const ReadingAssessment = () => {
           <div className="bg-slate-300">
             <div className="sm:p-5 md:p-10">
               <p className="font-semibold text-lg">
-                Q{ReadingData?.questions[questionNum].id}
+                Q{questionNum + 1}
                 {" - "}
                 {ReadingData?.questions[questionNum].question}
               </p>
-              <div className="my-4 gap-y-3 grid grid-cols-1">
-                {ReadingData?.questions[questionNum]?.options?.map((option) => (
-                  <div key={option.id}>
-                    <input
-                      className="hidden"
-                      type="radio"
-                      name={`question-${ReadingData?.questions[questionNum]?.id}`}
-                      id={option?.id}
-                      checked={selected === option.id}
-                      onChange={() => setSelected(option.id)}
-                    />
-                    <label
-                      htmlFor={option?.id}
-                      id={
-                        submitted != null &&
-                        (option.id === submitted
-                          ? option.id ===
-                            ReadingData?.questions[questionNum].answer
-                            ? "correct-answer"
-                            : "incorrect-answer"
-                          : option?.id ===
-                            ReadingData?.questions[questionNum].answer
-                          ? "correct-answer"
-                          : "")
-                      }
-                    >
-                      {option?.value}
-                    </label>
-                  </div>
-                ))}
-              </div>
+              <fieldset disabled={submitted}>
+                <div className="my-4 gap-y-3 grid grid-cols-1">
+                  {ReadingData?.questions[questionNum]?.options?.map((option) => (
+                    <div key={option.id}>
+                      <input
+                        className="hidden"
+                        type="radio"
+                        name={`question-${ReadingData?.questions[questionNum]?.id}`}
+                        id={option?.id}
+                        checked={selected === option.id}
+                        onChange={() => setSelected(option.id)}
+                      />
+                      <label htmlFor={option?.id}>{option?.value}</label>
+                    </div>
+                  ))}
+                </div>
+              </fieldset>
               <div className="flex flex-row-reverse">
                 {!submitted && (
                   <button

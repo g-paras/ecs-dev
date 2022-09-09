@@ -5,6 +5,6 @@ from .views import PassageAPIView, PassageListAPIView
 app_name = "reading"
 
 urlpatterns = [
-    path("passage/", PassageListAPIView.as_view(), name="passage-list"),
-    path("passage/<pk>/", PassageAPIView.as_view(), name="passage-item"),
+    path("task/", PassageListAPIView.as_view(), name="passage-list"),
+    path("task/<pk>/", PassageAPIView.as_view(), name="passage-item"),
 ]
