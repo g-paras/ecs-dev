@@ -14,15 +14,12 @@ def create_tasks():
     writing_objs = []
     for task in data:
         obj = Writing(
+            title=task["title"],
+            difficulty=task["difficulty"],
             content=task["content"],
             max_content=task["max_content"],
             min_content=task["min_content"],
-            title=task["title"],
         )
         writing_objs.append(obj)
 
     Writing.objects.bulk_create(writing_objs)
-
-
-create_tasks()
-print("done")

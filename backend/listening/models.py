@@ -14,7 +14,7 @@ class Listening(models.Model):
         max_length=1, choices=Difficulty.choices, default=Difficulty.EASY
     )
     title = models.CharField(
-        _("passage title"), default="untitled", max_length=50
+        _("listening title"), default="untitled", max_length=50
     )
     audio_src = models.FileField(
         _("audio file"),
@@ -25,3 +25,21 @@ class Listening(models.Model):
             )
         ],
     )
+
+
+class Question(models.Model):
+    audio = models.ForeignKey(
+        Listening, on_delete=models.CASCADE, related_name="questions"
+    )
+    question = models.CharField(_("listening question"), max_length=250)
+
+    def check_answer(self):
+        pass
+
+
+class Option(models.Model):
+    question = models.ForeignKey(
+        Question, on_delete=models.CASCADE, related_name="options"
+    )
+    value = models.CharField(_("question option"), max_length=100)
+    is_answer = models.BooleanField(_("is answer"), default=False)

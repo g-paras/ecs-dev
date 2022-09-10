@@ -10,7 +10,7 @@ def list_files():
     return [
         os.path.join(READING_FOLDER, file)
         for file in os.listdir(READING_FOLDER)
-    ][2:]
+    ]
 
 
 def create_tasks():
@@ -19,7 +19,11 @@ def create_tasks():
 
         data = json.loads(f.read())
 
-        passage = Passage.objects.create(content=data["content"])
+        passage = Passage.objects.create(
+            content=data["content"],
+            title=data["title"],
+            difficulty=data["difficulty"],
+        )
         # passage.save()
 
         for question in data["questions"]:

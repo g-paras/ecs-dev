@@ -17,3 +17,6 @@ class Writing(models.Model):
     content = models.CharField(_("tast description"), max_length=500)
     min_content = models.IntegerField(_("minimum words"))
     max_content = models.IntegerField(_("maximum words"))
+
+    def __str__(self):
+        return f"{self.title} | {self.difficulty}"
