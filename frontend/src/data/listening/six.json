@@ -1,6 +1,57 @@
 {
   "id": 6,
-  "title": "untitled",
+  "title": "Roti & Boti",
   "audio_src": "six.aac",
-  "questions": []
+  "difficulty": "M",
+  "questions": [
+    {
+      "id": 1,
+      "question": "What's the name of the restaurant?",
+      "options": [
+        { "id": 1, "value": "Deli foods", "is_answer": false },
+        { "id": 1, "value": "Delish foods", "is_answer": false },
+        { "id": 1, "value": "Delish burgers", "is_answer": false },
+        { "id": 1, "value": "Delicious burgers", "is_answer": true }
+      ]
+    },
+    {
+      "id": 1,
+      "question": "How much money did the customer save by converting his/her order into a combo meal?",
+      "options": [
+        { "id": 1, "value": "14 bucks", "is_answer": false },
+        { "id": 1, "value": "43 bucks", "is_answer": false },
+        { "id": 1, "value": "40 bucks", "is_answer": true },
+        { "id": 1, "value": "47 bucks", "is_answer": false }
+      ]
+    },
+    {
+      "id": 1,
+      "question": "What was the order amount?",
+      "options": [
+        { "id": 1, "value": "450", "is_answer": false },
+        { "id": 1, "value": "540", "is_answer": false },
+        { "id": 1, "value": "450", "is_answer": true },
+        { "id": 1, "value": "400", "is_answer": false }
+      ]
+    },
+    {
+      "id": 1,
+      "question": "The customer got _____ fries in the meal combo.",
+      "options": [
+        { "id": 1, "value": "Small", "is_answer": false },
+        { "id": 1, "value": "Large", "is_answer": true },
+        { "id": 1, "value": "Medium", "is_answer": false },
+        { "id": 1, "value": "No", "is_answer": false }
+      ]
+    },
+    {
+      "id": 1,
+      "question": "The customer wanted the order to be packed.",
+      "options": [
+        { "id": 1, "value": "True", "is_answer": false },
+        { "id": 1, "value": "False", "is_answer": true },
+        { "id": 1, "value": "Information not available", "is_answer": false }
+      ]
+    }
+  ]
 }

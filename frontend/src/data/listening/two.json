@@ -2,56 +2,57 @@
   "title": "Off to sydney",
   "id": 2,
   "audio_src": "two.aac",
+  "difficulty": "E",
   "questions": [
     {
       "id": 1,
-      "question": "Q1. Gopal is flying to _________.",
+      "question": "Gopal is flying to _________.",
       "options": [
-        { "id": 1, "value": "Kentucky" },
-        { "id": 2, "value": "Paris" },
-        { "id": 3, "value": "Milan" },
-        { "id": 4, "value": "Sydeny" }
+        { "id": 1, "value": "Kentucky", "is_answer": false },
+        { "id": 2, "value": "Paris", "is_answer": false },
+        { "id": 3, "value": "Milan", "is_answer": false },
+        { "id": 4, "value": "Sydeny", "is_answer": false }
       ]
     },
     {
       "id": 2,
-      "question": "Q2. He has ________ checked bag/s.",
+      "question": "He has ________ checked bag/s.",
       "options": [
-        { "id": 1, "value": "2" },
-        { "id": 2, "value": "3" },
-        { "id": 3, "value": "4" },
-        { "id": 4, "value": "1" }
+        { "id": 1, "value": "2", "is_answer": false },
+        { "id": 2, "value": "3", "is_answer": false },
+        { "id": 3, "value": "4", "is_answer": false },
+        { "id": 4, "value": "1", "is_answer": false }
       ]
     },
     {
       "id": 3,
-      "question": "Q3. Gopal has a layover in_________.",
+      "question": "Gopal has a layover in_________.",
       "options": [
-        { "id": 1, "value": "Melbourne" },
-        { "id": 2, "value": "Malaysia" },
-        { "id": 3, "value": "Singapore" },
-        { "id": 4, "value": "Salem" }
+        { "id": 1, "value": "Melbourne", "is_answer": false },
+        { "id": 2, "value": "Malaysia", "is_answer": false },
+        { "id": 3, "value": "Singapore", "is_answer": false },
+        { "id": 4, "value": "Salem", "is_answer": false }
       ]
     },
 
     {
       "id": 4,
-      "question": "Q4. His flight will leave from gate number ________.",
+      "question": "His flight will leave from gate number ________.",
       "options": [
-        { "id": 1, "value": "13B" },
-        { "id": 2, "value": "13G" },
-        { "id": 3, "value": "12B" },
-        { "id": 4, "value": "1B" }
+        { "id": 1, "value": "13B", "is_answer": false },
+        { "id": 2, "value": "13G", "is_answer": false },
+        { "id": 3, "value": "12B", "is_answer": false },
+        { "id": 4, "value": "1B", "is_answer": false }
       ]
     },
     {
       "id": 5,
-      "question": "Q5. Gopal can collect his checked bag when he lands in ________.",
+      "question": "Gopal can collect his checked bag when he lands in ________.",
       "options": [
-        { "id": 1, "value": "Melbourne" },
-        { "id": 2, "value": "Adelaide" },
-        { "id": 3, "value": "Sydney" },
-        { "id": 4, "value": "Singapore]" }
+        { "id": 1, "value": "Melbourne", "is_answer": false },
+        { "id": 2, "value": "Adelaide", "is_answer": false },
+        { "id": 3, "value": "Sydney", "is_answer": false },
+        { "id": 4, "value": "Singapore]", "is_answer": false }
       ]
     }
   ]

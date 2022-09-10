@@ -1,15 +1,44 @@
-import { useState } from "react";
+import { useState, useEffect } from "react";
+import { useParams } from "react-router-dom";
+import useAxios from "../hooks/useAxios";
+
+import { LISTENING_DETAIL } from "../utils/routes";
 
 const ListeningAssessment = () => {
-  // audio cdn links: hosted on private cloudinary server
-  const audios = [
-    "https://res.cloudinary.com/kiethub/video/upload/v1662418065/audio/sevmdn.aac",
-    "https://res.cloudinary.com/kiethub/video/upload/v1662418054/audio/mn5j14.aac",
-    "https://res.cloudinary.com/kiethub/video/upload/v1662417870/audio/ccv62u.aac",
-  ];
-  const [audio] = useState(new Audio(audios[2]));
+  const { id } = useParams();
+  const axios = useAxios();
 
-  return <button onClick={() => audio.play()}>Play</button>;
+  useEffect(() => {
+    axios
+      .get(`${LISTENING_DETAIL}${id}/`)
+      .then((res) => {
+        setAudio(new Audio(res.data.audio_src));
+        console.log(res.data);
+      })
+      .catch((err) => {
+        console.log(err);
+      });
+    // eslint-disable-next-line
+  }, []);
+
+  const [audio, setAudio] = useState();
+
+  return (
+    <>
+      <button
+        className="px-3 py-2 bg-indigo-500 rounded mx-2"
+        onClick={() => audio.play()}
+      >
+        Play
+      </button>
+      <button
+        className="px-3 py-2 bg-indigo-500 rounded mx-2"
+        onClick={() => audio.pause()}
+      >
+        Pause
+      </button>
+    </>
+  );
 };
 
 export default ListeningAssessment;

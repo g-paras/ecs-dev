@@ -2,51 +2,61 @@
   "id": 4,
   "title": "I am proud of you",
   "audio_src": "four.aac",
+  "difficulty": "E",
   "questions": [
     {
       "id": 1,
       "question": "What kind of a struggle did the family face?",
       "options": [
-        { "id": 1, "value": "social " },
-        { "id": 2, "value": "political " },
-        { "id": 3, "value": "financial " },
-        { "id": 4, "value": "health" }
+        { "id": 1, "value": "social", "is_answer": false },
+        { "id": 2, "value": "political", "is_answer": false },
+        { "id": 3, "value": "financial", "is_answer": false },
+        { "id": 4, "value": "health", "is_answer": false }
       ]
     },
     {
       "id": 2,
       "question": "Why is the mother proud of her son?",
       "options": [
-        { "id": 1, "value": "he got selected in the cricket team " },
-        { "id": 2, "value": "he got an award " },
-        { "id": 3, "value": "he cleared JEE mains " },
-        { "id": 4, "value": "he won the first prize" }
+        {
+          "id": 1,
+          "value": "he got selected in the cricket team",
+          "is_answer": false
+        },
+        { "id": 2, "value": "he got an award", "is_answer": false },
+        { "id": 3, "value": "he cleared JEE mains", "is_answer": false },
+        { "id": 4, "value": "he won the first prize", "is_answer": false }
       ]
     },
     {
       "id": 3,
       "question": "Where did they plan to go out?",
       "options": [
-        { "id": 1, "value": "to a museum" },
-        { "id": 2, "value": "to the movies" },
-        { "id": 3, "value": "to the mall" },
-        { "id": 4, "value": "to a restauran" }
+        { "id": 1, "value": "to a museum", "is_answer": false },
+        { "id": 2, "value": "to the movies", "is_answer": false },
+        { "id": 3, "value": "to the mall", "is_answer": false },
+        { "id": 4, "value": "to a restauran", "is_answer": false }
       ]
     },
     {
       "id": 4,
       "question": "Why did the son thank his mother?",
       "options": [
-        { "id": 1, "value": "for her encouragement " },
-        { "id": 2, "value": "for her struggle " },
-        { "id": 3, "value": "for her award " },
-        { "id": 4, "value": "for her advice" }
+        { "id": 1, "value": "for her encouragement", "is_answer": false },
+        { "id": 2, "value": "for her struggle", "is_answer": false },
+        { "id": 3, "value": "for her award", "is_answer": false },
+        { "id": 4, "value": "for her advice", "is_answer": false }
       ]
     },
     {
       "id": 5,
       "question": "Why was the mother initially disappointed by her son?",
-      "options": []
+      "options": [
+        { "id": 1, "value": "one", "is_answer": false },
+        { "id": 2, "value": "two", "is_answer": false },
+        { "id": 3, "value": "three", "is_answer": false },
+        { "id": 4, "value": "four", "is_answer": false }
+      ]
     }
   ]
 }

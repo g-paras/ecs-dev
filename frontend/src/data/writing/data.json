@@ -1,69 +1,89 @@
 [
   {
-    "title": "Task-1",
+    "id": 1,
+    "title": "Cooking lentils and rice",
+    "difficulty": "E",
     "content": "Your friend Ravish has gone to some other state for higher studies wherein he has rented an apartment but he could not get any house help for cooking. Ravish wants to cook lentils and rice. As a friend, help him by providing him with easy recipes for cooking lentils and rice. Hint- Firstly, write all the ingredients that you think will be required. (Word limit- 100- 200).",
     "max_content": 100,
     "min_content": 200
   },
 
   {
-    "title": "Task-2",
+    "id": 2,
+    "title": "A workshop on Robotics",
+    "difficulty": "E",
     "content": "IIT- Roorkee is organizing a workshop on Robotics. You are a II year student of Mechanical Engineering. Write an application to the organizing committee convincing them your suitability to attend this workshop. (Word Limit-100-200).",
     "max_content": 100,
     "min_content": 200
   },
 
   {
-    "title": "Task-3",
+    "id": 3,
+    "title": "Missing person ad",
+    "difficulty": "E",
     "content": "Ashok Ram, a 75 year old resident of Kishangarh (Rajasthan) has gone missing for 3 daysnow. Using the attached picture draft a suitable missing person advertisement depicting hisappearance. Hint- Think of words used to describe the appearance of a person. (Word limit 100-125)",
     "max_content": 100,
     "min_content": 125
   },
 
   {
-    "title": "Task-4",
+    "id": 4,
+    "title": "Your native place",
+    "difficulty": "E",
     "content": "In your HR interview, you have been asked to say something about your native place. Draft a suitable response for this question in not more than 125 words.",
     "max_content": 100,
     "min_content": 125
   },
 
   {
-    "title": "Task-5",
+    "id": 5,
+    "title": "A lottery competition",
+    "difficulty": "E",
     "content": "You want to apply for a lottery competition worth one million dollars for which you are supposed to tell the organizing committee how you will spend this amount if you win. (Word limit- 100-200).",
     "max_content": 100,
     "min_content": 200
   },
 
   {
-    "title": "Task-6",
+    "id": 6,
+    "title": "Childhood story",
+    "difficulty": "H",
     "content": "Paraphrase your favorite childhood story in not more than 125 words.",
     "max_content": 100,
     "min_content": 125
   },
 
   {
-    "title": "Task-7",
+    "id": 7,
+    "title": "Prepare a precis",
+    "difficulty": "M",
     "content": "Click the link- https://www.kiet.edu/blog/celebrate-life/caution-fasten-your-seat-belts-you- are-now-on-a-roller-coaster-ride-called-life/ to read a blog that follows. Your task is to prepare a precis based on this blog.",
     "max_content": 100,
     "min_content": 200
   },
 
   {
-    "title": "Task-8",
+    "id": 8,
+    "title": "An award ceremony",
+    "difficulty": "M",
     "content": "You witnessed 'Padamshree Award ceremony'. Prepare a news article based on your experience in not more than 125 words.",
     "max_content": 100,
     "min_content": 125
   },
 
   {
-    "title": "Task-9",
+    "id": 9,
+    "title": "The chores",
+    "difficulty": "H",
     "content": " You have to leave your house early today, write a short message (50-100 words) for your wife/ husband telling her/him about why you are leaving early and the chores that need to be done. (furnish the necessary information yourself).",
     "max_content": 50,
     "min_content": 100
   },
 
   {
-    "title": "Task-10",
+    "id": 10,
+    "title": "Frame a story",
+    "difficulty": "H",
     "content": "Using the following props, frame a story in 100-200 words- Sunny day, old umbrella, policeman, a teenager, group of soccer players, beach.",
     "max_content": 100,
     "min_content": 200

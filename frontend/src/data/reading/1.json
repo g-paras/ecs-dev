@@ -1,7 +1,8 @@
 {
   "id": 1,
-  "title": "ECS Reading Assignment 1",
+  "title": "Its me Stephen",
   "content": "My name is Stephen. Each day I drive my brother to school. It takes 30 minutes to get there. Then I drive to my workplace. Sometimes, my friend, Richard, meets me on the way. I drop him at his tuition classes when he asks me to, his tuition class is close to my office. He is a good student; however he is weak in Physics for which he has joined the tuition. My brother is good in Physics therefore; Richard also takes help from him to solve his numerical problems. My brother usually sings his favourite song when I drive him to school. I reach my office around 8.30 am. I greet my colleagues, we go for coffee sometimes after which we start our work. I often have to reply to several mails. I read them, understand the tasks of the day and soon I feel the need to have another cup of coffee.",
+  "difficulty": "E",
   "questions": [
     {
       "id": 1,

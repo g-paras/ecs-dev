@@ -1,6 +1,74 @@
 {
   "id": 7,
-  "title": "untitled",
+  "title": "Rima's Family",
   "audio_src": "seven.aac",
-  "questions": []
+  "difficulty": "H",
+  "questions": [
+    {
+      "id": 1,
+      "question": "Rima's mum has gone to buy ______?",
+      "options": [
+        { "id": 1, "value": "Dresses", "is_answer": false },
+        { "id": 2, "value": "Makeup", "is_answer": false },
+        { "id": 3, "value": "Decorations", "is_answer": false },
+        { "id": 4, "value": "Groceries", "is_answer": true }
+      ]
+    },
+
+    {
+      "id": 2,
+      "question": "Rima's brother is either sleeping or _______?",
+      "options": [
+        { "id": 1, "value": "Playing drums", "is_answer": false },
+        { "id": 2, "value": "Singing", "is_answer": false },
+        { "id": 3, "value": "Playing video games", "is_answer": true },
+        { "id": 4, "value": "Playing hockey", "is_answer": false }
+      ]
+    },
+
+    {
+      "id": 3,
+      "question": "Where does Rima's dad go on Saturdays?",
+      "options": [
+        { "id": 1, "value": "Country club", "is_answer": false },
+        { "id": 2, "value": "Golf club", "is_answer": false },
+        { "id": 3, "value": "Golf course", "is_answer": true },
+        { "id": 4, "value": "Golf hut", "is_answer": false }
+      ]
+    },
+
+    {
+      "id": 4,
+      "question": "Rima's sister is participating in the ________.",
+      "options": [
+        {
+          "id": 1,
+          "value": "Inter-college poetry competition",
+          "is_answer": false
+        },
+        {
+          "id": 2,
+          "value": "Inter-school dance competition",
+          "is_answer": true
+        },
+        {
+          "id": 3,
+          "value": "Intra-school dance competition",
+          "is_answer": false
+        },
+        { "id": 4, "value": "Singing competition", "is_answer": false }
+      ]
+    },
+
+    {
+      "id": 5,
+      "question": "Rima's sister's performance is ________.",
+      "options": [
+        { "id": 1, "value": "Tomorrow", "is_answer": true },
+        { "id": 2, "value": "Day after tomorrow", "is_answer": false },
+        { "id": 3, "value": "After a week", "is_answer": false },
+        { "id": 4, "value": "Information not available", "is_answer": false }
+      ]
+    }
+  ]
 }
