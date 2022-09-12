@@ -1,7 +1,70 @@
 {
   "id": 3,
-  "title": "untitled",
+  "title": "A friend of mine",
   "audio_src": "three.aac",
   "difficulty": "E",
-  "questions": []
+  "questions": [
+    {
+      "id": 1,
+      "question": "Why was Kanika not taking the calls?",
+      "options": [
+        { "id": 1, "value": "She was on a trip", "is_answer": false },
+        { "id": 2, "value": "She was sleeping", "is_answer": false },
+        { "id": 3, "value": "She was busy", "is_answer": false },
+        { "id": 4, "value": "She was at school", "is_answer": false }
+      ]
+    },
+    {
+      "id": 2,
+      "question": "Where have the two friends been planning to go?",
+      "options": [
+        { "id": 1, "value": "to college", "is_answer": false },
+        { "id": 2, "value": "for a trip", "is_answer": false },
+        { "id": 3, "value": "to a restaurant", "is_answer": false },
+        { "id": 4, "value": "to a museum", "is_answer": false }
+      ]
+    },
+    {
+      "id": 3,
+      "question": "Why was Reena worried about Kanika?",
+      "options": [
+        { "id": 1, "value": "She was unwell", "is_answer": false },
+        { "id": 2, "value": "She was not taking his calls", "is_answer": false },
+        { "id": 3, "value": "She was disturbed", "is_answer": false },
+        { "id": 4, "value": "She was crying", "is_answer": false }
+      ]
+    },
+    {
+      "id": 4,
+      "question": "Where did they plan to go finally?",
+      "options": [
+        { "id": 1, "value": "New Delhi", "is_answer": false },
+        { "id": 2, "value": "Dubai", "is_answer": false },
+        { "id": 3, "value": "Goa", "is_answer": false },
+        { "id": 4, "value": "Kolkata", "is_answer": false }
+      ]
+    },
+    {
+      "id": 5,
+      "question": "What made both of them really happy?",
+      "options": [
+        {
+          "id": 1,
+          "value": "Reena had some discount coupons",
+          "is_answer": false
+        },
+        {
+          "id": 2,
+          "value": "They will finally go for a trip",
+          "is_answer": false
+        },
+        { "id": 3, "value": "They will go home", "is_answer": false },
+        {
+          "id": 4,
+          "value": "They will finish the assignments together",
+          "is_answer": false
+        }
+      ]
+    }
+  ]
 }
