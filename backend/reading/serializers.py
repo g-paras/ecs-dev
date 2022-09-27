@@ -1,6 +1,6 @@
 from rest_framework import serializers
 
-from .models import Passage, Question, Option
+from .models import Passage, Question, Option, ReadingTest, ReadingSubmission
 
 
 class OptionSerializer(serializers.ModelSerializer):
@@ -29,3 +29,15 @@ class PassageShortSerializer(serializers.ModelSerializer):
     class Meta:
         model = Passage
         exclude = ("content",)
+
+
+class ReadingSubmissionSerializer(serializers.ModelSerializer):
+    class Meta:
+        model = ReadingSubmission
+
+
+class ReadingTestSerializer(serializers.ModelSerializer):
+    submissions = ReadingSubmissionSerializer(many=True)
+
+    class Meta:
+        model = ReadingTest
