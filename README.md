@@ -34,7 +34,14 @@ cd backend
 python -m venv .
 ```
 
-### 3. activate virtual environment
+### 3. Copy environment variables (one time)
+
+```sh
+cp .env.example .env
+# update values accordingly
+```
+
+### 4. activate virtual environment
 
 ```sh
 # for windows --------
@@ -44,7 +51,7 @@ Scripts\activate.bat
 source bin/activate
 ```
 
-### 4. start django server
+### 5. start django server
 
 ```
 python manage.py runserver
